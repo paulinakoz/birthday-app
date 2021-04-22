@@ -1,0 +1,38 @@
+body{
+    font-family: AppleGothic;
+    background-color: #f6dfeb;
+}
+
+h1{
+    text-align: center;
+    font-family: AppleGothic;
+}
+
+h3{
+    text-align: center;
+    font-family: AppleGothic;
+}
+
+#input-name {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.birthday {
+    display: flex;
+    justify-content: center;
+}
+
+#submit-button {
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#input-day{
+    margin-right: 10px;
+}

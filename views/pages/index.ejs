@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Birthday App</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Hello there!</h1>
+        <h3>What's your name?</h3>
+        <form action="/birthday" method="post">
+            <input id="input-name" type="text" name="name" />
+            <h3>When's your birthday?</h3>
+            <div class="birthday">
+                <span>day:</span><input id="input-day" type="number" name="day" /><span>  </span><span>month:</span>
+                <select id="input-month" name="month">
+                    <option name="January" value="january">January</option>
+                    <option name="February" value="february">February</option>
+                    <option name="March" value="march">March</option>
+                    <option name="April" value="april">April</option>
+                    <option name="May" value="may">May</option>
+                    <option name="June" value="june">June</option>
+                    <option name="July" value="july">July</option>
+                    <option name="August" value="august">August</option>
+                    <option name="September" value="september">September</option>
+                    <option name="October" value="october">October</option>
+                    <option name="November" value="november">November</option>
+                    <option name="December" value="december">December</option>
+                </select><br/>
+            </div>
+            <button id="submit-button" type="submit">Go!</button>
+        </form>
+    </div>
+</body>
+</html>
